@@ -24,3 +24,6 @@ repositories.each do |r|
     action :delete
   end
 end
+
+node.set['repositories_removed'] = true
+node.save
