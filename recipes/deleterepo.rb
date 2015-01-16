@@ -25,5 +25,10 @@ repositories.each do |r|
   end
 end
 
-node.set['repositories_removed'] = true
-node.save
+ruby_block 'set_idempotence' do
+  block do
+    node.set['repositories_removed'] = true
+    node.save
+  end
+  action :run
+end
