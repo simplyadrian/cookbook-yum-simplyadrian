@@ -3,6 +3,10 @@ yum-nativex CHANGELOG
 
 This file is used to list changes made in each version of the yum-nativex cookbook.
 
+0.4.0
+-----
+- [Derek Bromenshenkel] - Added 'doupgrade_once' recipe.
+
 0.2.0
 -----
 - [Jesse Hauf] - Removed nativex-custom repo and replaced it with epel and spacewalk-client repositories
