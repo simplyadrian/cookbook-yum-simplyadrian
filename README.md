@@ -21,6 +21,10 @@ NativeX, SpaceWalk after this point.
 #### yum-nativex:doupgrade
 Performs a yum upgrade on the node.
 
+#### yum-nativex:doupgrade_once
+Performs a one-time yum upgrade on the node. The recipe uses an internal Lockfile to know it has already been called.  Calling the recipe multipe times will have no effect unless the lockfile is deleted.
+This recipe is good for getting a machine up to date on bootstrap.
+
 Attributes
 ----------
 None.
