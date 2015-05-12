@@ -1,7 +1,7 @@
-yum-nativex CHANGELOG
+yum-simplyadrian CHANGELOG
 =====================
 
-This file is used to list changes made in each version of the yum-nativex cookbook.
+This file is used to list changes made in each version of the yum-simplyadrian cookbook.
 
 0.4.0
 -----
@@ -9,13 +9,13 @@ This file is used to list changes made in each version of the yum-nativex cookbo
 
 0.2.0
 -----
-- [Jesse Hauf] - Removed nativex-custom repo and replaced it with epel and spacewalk-client repositories
+- [Jesse Hauf] - Removed simplyadrian-custom repo and replaced it with epel and spacewalk-client repositories
                  Added epel and spacewalk-client to deleterepo.rb
                  Modified deleterepo.rb to loop through repositories
 
 0.1.0
 -----
-- [Adrian] - Initial release of yum-nativex
+- [Adrian Herrera] - Initial release of yum-simplyadrian
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.

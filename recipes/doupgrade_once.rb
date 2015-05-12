@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: yumupgrade-nativex
+# Cookbook Name:: yumupgrade-simplyadrian
 # Recipe:: doupgrade_once
 #
-# Copyright 2015, NativeX
+# Copyright 2015, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
